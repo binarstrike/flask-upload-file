@@ -1,3 +1,5 @@
+from crypt import methods
+import os
 from . import flask_main as me
 from flask import render_template as rt
 from flask import request, flash, redirect
